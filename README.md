@@ -1,0 +1,3 @@
+# Integer Overflow in Julia
+This repository demonstrates a potential integer overflow issue in Julia when using the exponentiation operator (`^`) with large integers.  The example function `my_function` squares its input, but for sufficiently large integers, this can result in an overflow, leading to incorrect or unexpected results.
+The solution showcases ways to mitigate this risk, including using arbitrary-precision integers from the `BigInt` type.
